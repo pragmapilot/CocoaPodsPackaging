@@ -9,16 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = 'MyLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyLib.'
+  s.summary          = 'This will be the summary for MyLib. For now not much to say...'
 
   s.description      = <<-DESC
-A long long description of MyLib.
+A long long long long long long long long description of MyLib. This...
                        DESC
 
   s.homepage         = 'https://github.com/pragmapilot/CocoaPodsPackaging'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pragma pilot' => 'pragma@pilot.com' }
-  s.source           = { :git => 'https://github.com/pragmapilot/CocoaPodsPackaging', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pragmapilot/CocoaPodsPackaging.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
